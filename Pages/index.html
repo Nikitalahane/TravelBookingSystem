@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/bootstrap.css">
+    <link rel="stylesheet" href="/style.css">
+    <title>Sky Booking</title>
+</head>
+<body>
+
+    <nav class="navBar">
+        <div class="brandlogo">
+            <img src="/Logos/logo-white.png" alt="">
+        </div>
+        <div class="nav-item">
+            <ul>
+                <li class="item" id="item-home">Home</li>
+                <li class="item">About <i class="fa-solid fa-chevron-down"></i></i></i></li>
+                <li class="item">Blog <i class="fa-solid fa-chevron-down"></i></i></i></li>
+                <li class="item">Pages <i class="fa-solid fa-chevron-down"></i></i></i></li>
+                <li class="item">Contacts</li>
+                <li class="item" id="search"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="bg">
+        <img src="/Logos/backgroungImage.jpg" alt="" class="bg-img">
+
+        <form action="" class="img-form">
+            <div class="div-item">
+                <td> <span class="top" id="top1"> <i class="fa-solid fa-plane fa-rotate-270"></i>Flights</span></td>
+                <td><span class="top"><i class="fa-solid fa-bed"></i> Hotels</span></td>
+                <td><span class="top" id="top3"><i class="fa-solid fa-car"></i> Car Hire</span></td>
+            </div>
+            <div class="for">
+                <div class="item1">
+                    <div class="item2">
+                        <td><input type="radio" name="flight-type" value="Round Type" class="radio-btn" checked> Round
+                            Trip
+                        </td>
+                        <td><input type="radio" name="flight-type" value="One Way" class="radio-btn">One Way</td>
+                        <td><input type="radio" name="flight-type" value="Multi-city" class="radio-btn">Multi-city</td>
+                    </div>
+                    <div class="item3">
+                        <td><input type="checkbox" class="check">Direct Flights Only
+                        </td>
+                    </div>
+                </div>
+                <div class="label1">
+                    <td><label for="" id="lb1" class="bg-label">From</label></td>
+                    <td><label for="" id="lb2" class="bg-label">To</label></td>
+                    <td><label for="" id="lb3" class="bg-label">Cabin Classic</label></td>
+                </div>
+                <div>
+                    <td>
+                        <select name="city-from" id="" class="bg-input1">
+                            <option value="">New Delhi (DEL)</option>
+                            <option value="">Mumbai</option>
+                            <option value="">Pune</option>
+                            <option value="">Bangalore</option>
+                            <option value="">Kolkata</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="city-to" id="" class="bg-input1 input-margin">
+                            <option value="">New York (JFK)</option>
+                            <option value="">Mumbai</option>
+                            <option value="">Pune</option>
+                            <option value="">Bangalore</option>
+                            <option value="">Kolkata</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="cabinclass" id="" class="bg-input2 input-margin">
+                            <option value="">Economy</option>
+                            <option value="">Mumbai</option>
+                            <option value="">Pune</option>
+                            <option value="">Bangalore</option>
+                            <option value="">Kolkata</option>
+                        </select>
+                    </td>
+                </div>
+                <div class="item5">
+                    <div id="check1"><input type="checkbox" class="check">Add Nearby Airports</div>
+                    <div id="check2"><input type="checkbox" class="check">Add Nearby Airports</div>
+                </div>
+                <div class="label5">
+                    <td><label for="" id="lb3" class="bg-label">Departure</label></td>
+                    <td><label for="" id="lb4" class="bg-label">Return</label></td>
+                    <td><label for="" id="lb5" class="bg-label">Adults(16+)</label></td>
+                    <td><label for="" id="lb6" class="bg-label">Children</label></td>
+                </div>
+
+                <div>
+                    <td>
+                        <input type="text" name="" id="" class="bg-input2">
+                    </td>
+                    <td>
+                        <input type="text" class="bg-input2 input-margin">
+                    </td>
+                    <td>
+                        <input type="number" min="2" value="2" class="bg-input3 input-margin">
+                    </td>
+                    <td>
+                        <input type="number" min="0" value="0" class="bg-input3 input-margin">
+                    </td>
+                    <td><button class="btn-submit input-margin">Search Flight</button></td>
+                </div>
+            </div>
+        </form>
+    </section>
+    
+    <div class="bg-light">
+        <div class="row pad">
+            <div class="col mt-6 icon"><i class="fa-solid fa-arrow-right fa-rotate-180"></i></div>
+            <div class="col "><img src="/Logos/logo-14.png" alt=""></div>
+            <div class="col mt-4"><img src="/Logos/logo-15.png" alt=""></div>
+            <div class="col"><img src="/Logos/logo-16.png" alt=""></div>
+            <div class="col mt-3"><img src="/Logos/logo-17.png" alt=""></div>
+            <div class="col"><img src="/Logos/logo-18.png" alt=""></div>
+            <div class="col"><img src="/Logos/logo-19.png" alt=""></div>
+            <div class="col mg icon"><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+    </div>
+</body>
+
+</html>
